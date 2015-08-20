@@ -1,0 +1,35 @@
+---
+title: "RamseyR"
+author: "Gabriel Balsa"
+date: "Tuesday, August 18, 2015"
+output: html_document
+---
+#Introduction
+
+The following implementation is a reconstruction of the published algorithm by Stephen A. Ramsey, Bioinformatics Vol. 26, 2010 <http://bioinformatics.oxfordjournals.org/>.
+
+The following code is open source, built under R and C++ using the standard RStudio toolset including Rtools in a Windows 7 64 bit mainframe.
+The used pacakges were:
+
+- ggplot2
+- Rcpp
+- dplyr
+- reshape2
+
+Additional functions are provided via gitHub distribution.
+
+
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

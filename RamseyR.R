@@ -2,8 +2,7 @@ setwd("B:/Documents/R")
 signal<-as.numeric(read.csv("aa.csv", header=F)[1,])
 ### Requires multiplot.R, Rcpp, ggplot
 
-RamseyR <- function(signal){
-        index=1;
+RamseyR <- function(signal, index=1){
         ##Packages, sourceCpp has rebuild False
         library(ggplot2);
         library("dplyr");

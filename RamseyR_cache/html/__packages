@@ -1,0 +1,11 @@
+base
+knitr
+ggplot2
+dplyr
+Rcpp
+reshape2
+DBI
+RMySQL
+lubridate
+rmarkdown
+markdown

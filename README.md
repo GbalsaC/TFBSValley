@@ -1,6 +1,10 @@
 ---
 title: "RamseyR"
+<<<<<<< HEAD
 author: "Gabriel Balsa Cantú"
+=======
+author: "Gabriel Balsa CantÃº"
+>>>>>>> e4fac6c70cf0e3735ef71e221fb262e9a05ff911
 organization: "UNAM - LIIGH"
 date: "Tuesday, August 18, 2015"
 output: html_document
